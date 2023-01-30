@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		/*.parent*/
+		.parent{
+			color:rosybrown;
+		}
+		 
+		
+	   .demo p{
+    	color:brown;
+        }
+        /*childsector*/
+         
+        .demo>p {
+    	background-color:fuchsia;
+        }
+        /*adjacent sector*/
+        .demo+{
+        	color:darkblue;
+        }
+        /*general sector*/
+        .demo~{
+        	color:darkblue;
+        }
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+   <!-- <section class="parent">
+    	<h1>hii</h1>
+    	<p>byee</p>
+    	<h1>tata</h1>
+     
+    </section>-->
+    *
+    <section class="demo">
+    	<p>this is para one child to section</p>
+    	<p>this is para second to section</p>
+    	 
+    	<div>
+    	<p>this is grand child to section and child to div</p>
+    	 
+    	</div>
+    	<h1> this is h1 this is grand child to section and child to div </h1>
+    	<p>this is para third child to section</p>
+    	<h2 >phirmilenge</h2>
+
+    </section>
+
+     
+</body>
+</html>
